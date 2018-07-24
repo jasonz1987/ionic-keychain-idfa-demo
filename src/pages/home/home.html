@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic获取ios设备ID（IDFA+KEYCHAIN）DEMO
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <p>
+   	 当前设备id：{{deviceId}}
+  </p>
+
+  <button ion-button (click)="getDeviceID()">获取设备id</button>
+  <button ion-button color="danger" (click)="deleteDeviceID()">删除设备id</button>
+
+</ion-content>
