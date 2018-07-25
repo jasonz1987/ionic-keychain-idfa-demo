@@ -4,12 +4,25 @@
 
 
 
-# 如何使用
+# 使用方法
 
 ```
 git clone https://github.com/jasonz1987/ionic-keychain-idfa-demo.git
+```
+```
+cd ionic-keychain-idfa-demo
+```
+```
 npm install
-ionic cordova run ios
+```
+```
+ionic cordova platform add ios
+```
+```
+ionic cordova plugin add cordova-plugin-keychain-idfa
+```
+```
+ionic cordova build ios
 ```
 
 
@@ -20,7 +33,9 @@ ionic cordova run ios
 
 
 
-*可以尝试卸载app或者更换包名验证设备id是否一致。*
+
+
+*可尝试更话卸载重新安装，或者更换包名来验证设备id是否一致*
 
 
 
